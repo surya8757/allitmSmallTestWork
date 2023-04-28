@@ -1,0 +1,44 @@
+.main{
+    text-align: center;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+form{
+    overflow: hidden;
+    margin-top:1em;
+    display:flex;
+    min-height: 400px ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: aqua;
+    width: 40%;
+    padding: 1em;
+    border-radius: 10px;
+}
+label{
+    font-family: sans-serif;
+    font-size: bold;
+    padding-bottom: 5px;
+}
+input{
+    border-radius: 5px;
+    padding:2px 10px 2px 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+p{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color:bisque;
+    padding: 2px 10px 2px 10px;
+    border: none;
+}
+button:hover{
+    background-color: azure;
+    cursor:pointer
+}
