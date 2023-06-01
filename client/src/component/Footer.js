@@ -4,7 +4,7 @@ const Footer=()=> {
   
   return (
     <div className='footer'>
-        Footer
+        @Footer
     </div>
   )
 }
